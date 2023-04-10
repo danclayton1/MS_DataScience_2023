@@ -1,0 +1,9 @@
+This tic tac toe game has been designed to showcase basic syntax use and the segmentation of logical workflow into functions
+
+The pre-main function asks the player to select the number of human players: either 1-2
+The main function calls the setup function, feeding it the number of players, which returns the board matrix and player characters ("X" and "O")
+The main function allows the first human player to select which space to play
+The main function calls the "check move" function, which returns a True if the move is allowed (space is valid and unoccupied) or False if it is not allowed
+If False is returned by the "check move" function then the main function loops
+If True is returned by the "check move" function then the main function sets the player's character into the selected matric location
+The main function calls the "check win" function, which returns the winning character if the game has been won, or "Cat Game" if the game cannot be won, or "" if the game has not been won
