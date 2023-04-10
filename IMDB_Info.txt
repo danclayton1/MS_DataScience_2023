@@ -1,0 +1,12 @@
+IMDB Info readme file:
+
+This project was made to streamline the file naming portion of a sizable personal media backup project.  Essential, the typical workflow is:
+  1) DVDs of a TV show season are copied to a server
+  2) The files for the show are all copied to a folder with the naming structure "[SHOWNAME] SEASON [SEASON#]".
+  This IMDB naming tool is then run given this folder location
+  The tool searches for the show name on IMDB and returns the top 10 results
+  The user confirms that the first result is correct (or overwrites the suggested 1st result with a 1-10 selection)
+  The tool gets the show's information from IMDB, including episode names
+  If the folder being scanned has the same number of files as there are episodes in this season, then the tool will rename each file using the following convention: 
+  "SHOWNAME S01E01 [EPISODE NAME]"
+   This prevents the user having to manually name the potentially dozens of files that could accompany any given show.
